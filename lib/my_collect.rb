@@ -6,7 +6,6 @@ def my_collect(array)
   end
   collection = []
   collection = array[i].push
-
 end
 
 # array = ['ruby', 'javascript', 'python', 'objective-c']
