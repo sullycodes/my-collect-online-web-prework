@@ -1,11 +1,11 @@
 def my_collect(array)
-  collection = []
   i = 0 
   while i < array.length
   yield array[i]
   i += 1 
   end
-  collection = array
+  array = collectiion
+  puts collection
 end
 
 # array = ['ruby', 'javascript', 'python', 'objective-c']
