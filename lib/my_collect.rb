@@ -3,9 +3,9 @@ def my_collect(array)
   while i < array.length
   yield array[i]
   i += 1 
-  end
   collection = []
   collection << yield(array[i]
+  end
 end
 
 # array = ['ruby', 'javascript', 'python', 'objective-c']
