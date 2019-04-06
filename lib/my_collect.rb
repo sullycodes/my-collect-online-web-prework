@@ -8,6 +8,7 @@ def my_collect(array)
 end
 
 # array = ['ruby', 'javascript', 'python', 'objective-c']
+
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
 # my_collect(array) { |lang| puts lang.upcase }
