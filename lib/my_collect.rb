@@ -5,7 +5,7 @@ def my_collect(array)
   i += 1 
   end
   collection = []
-  collection << yield(array[i])
+  collection << yield(array[i]
 end
 
 # array = ['ruby', 'javascript', 'python', 'objective-c']
