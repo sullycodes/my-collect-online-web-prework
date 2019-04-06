@@ -4,7 +4,7 @@ def my_collect(array)
   yield array[i]
   i += 1 
   collection = []
-  collection << yield(array[i]
+  collection = yield(array[i]).push
   end
 end
 
