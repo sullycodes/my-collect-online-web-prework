@@ -4,10 +4,9 @@ def my_collect(array)
   yield array[i]
   i += 1 
   end
-  
   collection = []
-  array = collection
-  puts collection
+  collection = array[i].push
+
 end
 
 # array = ['ruby', 'javascript', 'python', 'objective-c']
