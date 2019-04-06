@@ -9,8 +9,8 @@ end
 
 # array = ['ruby', 'javascript', 'python', 'objective-c']
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+# array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-# my_collect(array) { |lang| puts lang.upcase }
+# # my_collect(array) { |lang| puts lang.upcase }
 
-my_collect(array) { |name| name.split(" ").first }
+# my_collect(array) { |name| name.split(" ").first }
